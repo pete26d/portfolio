@@ -140,12 +140,8 @@ h3, h2 {
   position: relative;
   float: left;
   width: 274px;
-  margin: 20px 0 25px;
+  margin: 20px 40px 25px;
   overflow: auto;
-}
-
-.work:nth-child(even) {
-  margin-right: 40px;
 }
 
 .work img {
@@ -215,3 +211,37 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+* sidebar */
+
+.sidebar {
+  float: right;
+  width: 100%;
+  max-width: 270px;
+  padding: 30px;
+  margin-bottom: 20px;
+  background: #fff;
+  border: 1px solid #ddd;
+  color: #777777;
+}
+
+h3,
+.sidebar h2 {
+  padding-bottom: 20px;
+  margin-bottom: 15px;
+  line-height: 22px;
+  border-bottom: 2px solid #eee;
+}
+
+.social {
+  width: 62px;
+  height: 62px;
+  margin-top: 8px;
+  margin-right: 5px;
+}
+
+.social:last-child {
+  margin-right: 0;
+}
+
+
